@@ -4,4 +4,10 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
 	<configuration-properties doc:name="Configuration properties" doc:id="b6476534-4b15-4aab-b4d3-9b5c7c28ef3e" file="config.yaml" />
+	<configuration doc:name="Configuration" doc:id="b0ed712e-553a-44b4-bffb-dff588d208a6" defaultErrorHandler-ref="globalError_Handler" />
+	<error-handler name="globalError_Handler" doc:id="96258b3d-36ba-4b77-bc94-efa3a5caa575" >
+		<on-error-propagate enableNotifications="true" logException="true" doc:name="On Error Propagate" doc:id="2b90f0fc-57d1-40a4-9847-042c3fb20b18" type="ANY">
+			<logger level="INFO" doc:name="Logger" doc:id="f597b6f1-3aa5-40d7-b24e-2694c060128f" message="Error handled successfully"/>
+		</on-error-propagate>
+	</error-handler>
 </mule>

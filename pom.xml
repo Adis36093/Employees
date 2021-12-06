@@ -41,7 +41,7 @@
           <workerType>${workerType}</workerType>
           <objectStoreV2>true</objectStoreV2>
         </cloudHubDeployment>
-        </configuration>
+        
 					<sharedLibraries>
 						<sharedLibrary>
 							<groupId>mysql</groupId>

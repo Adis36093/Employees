@@ -32,13 +32,13 @@
 				<configuration>
 				<cloudHubDeployment>
           <uri>https://anypoint.mulesoft.com</uri>
-          <muleVersion>${muleVersion}</muleVersion>
-          <username>${username}</username>
-          <password>${password}</password>
-          <applicationName>${applicationName}</applicationName>
-          <environment>${environment}</environment>
-          <workers>${workers}</workers> 
-          <workerType>${workerType}</workerType>
+          <muleVersion>4.4.0</muleVersion>
+          <username>aditi2108</username>
+          <password>Aditi@@@221</password>
+          <applicationName>emp-app</applicationName>
+          <environment>Sandbox</environment>
+          <workers>1</workers> 
+          <workerType>MICRO</workerType>
           <objectStoreV2>true</objectStoreV2>
         </cloudHubDeployment>
         

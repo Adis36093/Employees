@@ -35,7 +35,7 @@
           <muleVersion>4.4.0</muleVersion>
           <username>aditi2108</username>
           <password>Aditi@@@221</password>
-          <applicationName>employee-app</applicationName>
+          <applicationName>emp-app</applicationName>
           <environment>Sandbox</environment>
           <workers>1</workers> 
           <workerType>MICRO</workerType>

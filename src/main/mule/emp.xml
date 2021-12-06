@@ -53,8 +53,5 @@ output application/json
 			<db:sql ><![CDATA[SELECT * FROM employees WHERE id= :id]]></db:sql>
 			<db:input-parameters ><![CDATA[#[{"id":attributes.uriParams.id}]]]></db:input-parameters>
 		</db:select>
-		<error-handler >
-			<on-error-propagate enableNotifications="true" logException="true" doc:name="On Error Propagate" doc:id="72f8967a-4e97-4106-a7f6-2ce725ef9c99" />
-		</error-handler>
 	</flow>
 </mule>
